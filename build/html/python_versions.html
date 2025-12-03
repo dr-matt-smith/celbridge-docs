@@ -1,0 +1,163 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Python Versions and Packages &mdash; celbridge-docs 0.1 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=2709fde1"></script>
+      <script src="_static/doctools.js?v=9bcbadda"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Module" href="package/module.html" />
+    <link rel="prev" title="Installation" href="installation.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            celbridge-docs
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Python Versions and Packages</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#python-version">Python version</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#python-packages">Python Packages</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="package/module.html">Module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="reference.html">Reference</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">celbridge-docs</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Python Versions and Packages</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/python_versions.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="python-versions-and-packages">
+<h1>Python Versions and Packages<a class="headerlink" href="#python-versions-and-packages" title="Link to this heading"></a></h1>
+<p>The project settings file configures the project for a specific version of Python. This file is named <cite>yourprojectname.celbridge</cite> , and is visible in the explorer panel.</p>
+<section id="python-version">
+<h2>Python version<a class="headerlink" href="#python-version" title="Link to this heading"></a></h2>
+<p>The <cite>Python</cite> section of the project settings file declares the Python version for the project. For example, this declares Python version <strong>3.13.6</strong>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">[</span><span class="n">python</span><span class="p">]</span>
+<span class="n">version</span> <span class="o">=</span> <span class="s2">&quot;3.13.6&quot;</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Every project <strong>must</strong> have a <cite>[python]</cite> section, and a Python language <cite>version</cite> specified.</p>
+<p>When you create a new Celbridge project an up-to-date version of Python will be declared here, in the project settings file created with the project.</p>
+</div>
+</section>
+<section id="python-packages">
+<h2>Python Packages<a class="headerlink" href="#python-packages" title="Link to this heading"></a></h2>
+<p>Additionally, you can specific Pythn (PyPi) packages to be automatically loaded through the project settings file.</p>
+<p>For example, let’s add the data analysis library <a class="reference external" href="https://pandas.pydata.org/">Pandas</a>  to our Celbridge project.</p>
+<ol class="arabic simple">
+<li><dl class="simple">
+<dt>Open the <cite>.celbridge</cite> project settings file:</dt><dd><ul class="simple">
+<li><p>double-click it in the explorer panel.</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Under the <cite>packages</cite> key in the <cite>[python]</cite> section, type <cite>“pandas”</cite>:</dt><dd><ul class="simple">
+<li><p>ensure you wrap double-quotes around the package name.</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+</ol>
+<img alt="Screenshot showing Python version and extensions in .celbridge configuration file" src="_images/project_settings.png" />
+<ol class="arabic simple" start="3">
+<li><p>Reload the project by navigating to the hambuger menu in the top left and clicking <cite>Reload project</cite>.</p></li>
+<li><p>The console window will show Pandas being installed.</p></li>
+</ol>
+<p>You can specify multiple packages by declaring a comma-separate list of them in the <cite>packages</cite> key. For example, here we specify both the <cite>“pandas”</cite> and <cite>“numpy”</cite> packages:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">[</span><span class="n">python</span><span class="p">]</span>
+<span class="n">version</span> <span class="o">=</span> <span class="s2">&quot;3.13.6&quot;</span>
+<span class="n">packages</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;pandas&quot;</span><span class="p">,</span> <span class="s2">&quot;numpy&quot;</span><span class="p">]</span>
+</pre></div>
+</div>
+<p>For a list of Python packages visit <a class="reference external" href="https://pypi.org/">Pypi</a></p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="installation.html" class="btn btn-neutral float-left" title="Installation" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="package/module.html" class="btn btn-neutral float-right" title="Module" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Celbridge.org.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

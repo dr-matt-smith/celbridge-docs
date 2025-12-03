@@ -6,15 +6,16 @@
 celbridge-docs documentation
 ============================
 
-Add your content using ``reStructuredText`` syntax. See the
-`reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
-documentation for details.
+Welcome to the documentation pages for the Celbridge OSS (`celbridge.org`_) workbench application.
+
+.. _celbridge.org: https://www.celbridge.org/
 
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
-   main
+   installation
+   python_versions
    package/module
    reference
