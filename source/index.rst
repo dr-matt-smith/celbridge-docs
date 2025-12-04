@@ -8,6 +8,9 @@ celbridge-docs documentation
 
 Welcome to the documentation pages for the Celbridge OSS (`celbridge.org`_) workbench application.
 
+.. image:: /images/celbridge_application.png
+   :alt: Screenshot showing Celbridge application with Python editor panel open
+
 .. _celbridge.org: https://www.celbridge.org/
 
 
@@ -18,4 +21,5 @@ Welcome to the documentation pages for the Celbridge OSS (`celbridge.org`_) work
    installation
    python_versions
    package/module
+
    reference
