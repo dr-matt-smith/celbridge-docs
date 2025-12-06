@@ -1,8 +1,0 @@
-2025-12-02 09:31:28 - celbridge_host.logging_config - DEBUG - Python logging configured: level=DEBUG, dir=\\Mac\Home\Downloads\celbirdge-files\phyinx_docs\celbridge\.logs, file=\\Mac\Home\Downloads\celbirdge-files\phyinx_docs\celbridge\.logs\celbridge_host_20251202_093128.log
-2025-12-02 09:31:28 - celbridge_host.logging_config - INFO - The Celbridge application log is here: 'C:\Users\matt\AppData\Local\Packages\org.celbridge.Celbridge_ykg1nfekv71pc\LocalState\Logs\celbridge_20251202_091846.log'
-2025-12-02 09:31:28 - celbridge_host.named_pipe - INFO - Pipe server initialized for: \\.\pipe\celbridge_rpc_7d4fb79a3ae44479b734e02b8e152802
-2025-12-02 09:31:28 - celbridge_host.rpc_service - INFO - RPC server initialized
-2025-12-02 09:31:28 - celbridge_host.rpc_service - INFO - RPC server started
-2025-12-02 09:31:28 - celbridge_host.named_pipe - INFO - Waiting for client connection on \\.\pipe\celbridge_rpc_7d4fb79a3ae44479b734e02b8e152802...
-2025-12-02 09:31:28 - celbridge_host.rpc_service - INFO - RPC server initialized and started on pipe: celbridge_rpc_7d4fb79a3ae44479b734e02b8e152802
-2025-12-02 09:31:28 - celbridge_host.named_pipe - INFO - Client connected
